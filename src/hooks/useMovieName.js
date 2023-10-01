@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-const MOVIES_API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
+const MOVIES_API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 export default function useMovieName(query) {
   const [isError, setIsError] = useState("");
